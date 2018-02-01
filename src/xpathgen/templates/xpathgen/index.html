@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="url"/>
+            <input type="submit" value="Generate XPath"/>
+        </form>
+    </body>
+</html>
